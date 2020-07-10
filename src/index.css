@@ -1,0 +1,513 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: JannaLT-Regular !important;
+}
+
+
+@import url(//db.onlinewebfonts.com/c/dee436f274c410c23fc3de43367ef1ae?family=JannaLT-Regular);
+
+@font-face {font-family: "JannaLT-Regular";
+    src: url("https://db.onlinewebfonts.com/t/dee436f274c410c23fc3de43367ef1ae.eot");
+    src: url("https://db.onlinewebfonts.com/t/dee436f274c410c23fc3de43367ef1ae.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/dee436f274c410c23fc3de43367ef1ae.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/dee436f274c410c23fc3de43367ef1ae.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/dee436f274c410c23fc3de43367ef1ae.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/dee436f274c410c23fc3de43367ef1ae.svg#JannaLT-Regular") format("svg");
+}
+
+
+.cards {
+  margin-bottom: 100px !important;
+}
+
+td {
+  font-family: tahoma;
+  font-size: 12px;
+  color: #6d6d6f;
+}
+
+
+.signout {
+  position: fixed;
+  bottom:30px;
+  left:30px;
+  font-family: JannaLT-Regular !important;
+  color: black;
+}
+
+
+.copylink {
+  position: fixed;
+  bottom:30px;
+  left:100px;
+  font-family: JannaLT-Regular !important;
+  color: black;
+  z-index: 1;
+}
+
+.copylink:hover {
+  color: blue;
+}
+
+
+.signout:hover {
+  color: red;
+}
+
+
+.segmentfix {
+  min-height: 100px !important;
+}
+
+.testing {
+  width: 71.42857%; }
+
+.button {
+  font-family: JannaLT-Regular !important;
+}
+
+
+.header {
+  font-family: JannaLT-Regular !important;
+  font-size: 14px !important;
+  line-height: 30px !important;
+  margin-bottom: 5px !important;
+}
+
+
+.centercolumn {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh;
+    font-family: JannaLT-Regular;
+}
+
+
+.centernoresults {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 300px;
+    color:#9e9e9e;
+    font-family: JannaLT-Regular;
+}
+  .urlsfix {
+    max-width: 200px;
+    word-wrap: break-word;
+  }
+
+input, textarea, input[date] {
+  font-family: Tahoma !important;
+  font-size: 12px !important;
+}
+
+
+
+label, .item, h3, th {
+  font-family: JannaLT-Regular !important;
+  font-size: 11px !important;
+  }
+
+h1 {
+    font-family: JannaLT-Regular !important;
+}
+  
+
+.container {
+  padding-top: 30px; }
+
+.tabletfix {
+  width:200px !important;
+  margin:auto !important;
+  margin-bottom: 20px !important;
+}
+
+
+.profilepix:hover {
+  cursor: pointer;
+}
+
+
+.ui .search .input {
+  width: 100%; }
+
+.content {
+  font-weight: normal !important;
+  font-family: JannaLT-Regular !important; }
+
+.content .header {
+  font-weight: normal !important;
+  font-family: JannaLT-Regular !important; }
+
+#hover-content {
+  display: none;
+}
+
+#parent {
+  position: relative;
+}
+
+#parent:hover #hover-content {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  font-family: JannaLT-Regular !important;  
+  top: 100px;
+  border: 2px solid black;
+  background: white;
+  padding: 10px;
+  widows: 100px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+
+
+.address {
+  font-size: 12px;
+}
+
+/* landing page*/
+
+.background {
+  background:#fff;
+
+
+  
+/*  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(-234deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(54deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(18deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-198deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-126deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -webkit-linear-gradient(-54deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -webkit-linear-gradient(-234deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(54deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(18deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-198deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-126deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -webkit-linear-gradient(-54deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), rgb(67, 20, 72);
+  background: -moz-linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -moz-linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -moz-linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -moz-linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), rgb(67, 20, 72);
+  background: linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), rgb(67, 20, 72);
+  background-position: -70px 43px, 30px 43px, 30px 43px, -70px 43px, -70px 23px, 30px 23px, -20px 93px, 80px 93px, 80px 93px, -20px 93px, -20px 73px, 80px 73px;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 100px 100px;
+  background-size: 100px 100px;*/
+
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+
+.copy1 {
+  position: absolute;
+  top: 250px;
+  right: 70px;
+  direction: rtl;
+  z-index: 10;
+
+}
+
+.copy1 > .line1 {
+  font-family: JannaLT-Regular !important; 
+  color: #7a3dc7;
+  font-size: 30px;
+  text-align: right;
+  direction: rtl;
+  margin-bottom: 35px;
+}
+
+.copy1 > .line2 {
+  font-family: JannaLT-Regular !important; 
+  color: #7a3dc7;
+  font-size: 50px;
+  text-align: right;
+  direction: rtl;
+  font-weight: bold;
+
+}
+
+
+.tri1 {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  transform: rotate(110deg);
+}
+
+.tri2 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/iraq-casting.appspot.com/o/assets%2Fawjicon2.png?alt=media&token=9ec086f5-cedc-410b-8b42-7d6a18433b91
+  transform: rotate(0deg);
+  background-blend-mode: multiply;
+}
+
+.copy2 {
+  position: absolute;
+  bottom: 60px;
+  right: 70px;
+  font-family: JannaLT-Regular !important; 
+  color: #2f302f;
+  font-size: 11px;
+}
+
+.fb {
+  position: absolute;
+  top:30px;
+  right:70px;
+  color: grey;
+}
+
+
+.fb:hover {
+  color: #f85c4c;
+  transition: 0.3s all;
+}
+
+.solo {
+  position: absolute;
+  bottom: 30px;
+  left: 70px;
+  font-family: JannaLT-Regular !important; 
+  color: grey;
+  font-size: 11px;
+}
+
+
+.solo > a {
+  color: grey;
+  font-weight: bold;
+}
+
+.solo > a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+
+
+
+.awj {
+  position: absolute;
+  bottom: 30px;
+  right: 70px;
+  font-family: JannaLT-Regular !important; 
+  color: #f85c4c;
+  font-size: 11px;
+}
+
+
+.awj > a {
+  color: #f85c4c;
+  font-weight: bold;
+}
+
+.awj > a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+
+/*Harmattan|Lalezar|Lemonada|Changa|Scheherazade*/
+
+.calltoaction {
+
+}
+
+
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+
+.search-input {
+  border-radius: 30px !important;
+}
+
+
+.sp {
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative !important;
+}
+.search-result {
+  position: absolute;
+  top:40px;
+  border-radius: 3px;
+  border: 1px solid #e9e9e9;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  padding:10px;
+  box-shadow: #e8e8e8 1px 1px 10px 2px;
+}
+
+.search-item {
+  height: 70px;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.search-item:hover {
+  
+  background: #eee;
+
+}
+
+
+.search-details {
+  flex: 1 200px;
+}
+
+
+
+.search-img img{
+  height: 50px;
+}
+
+.event {
+  font-size: 12px !important;
+}
+
+
+@media (max-width: 800px) {
+
+
+.tri1 {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  transform: rotate(110deg);
+  opacity: 0.3;
+  display: none;
+}
+
+.tri2 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/iraq-casting.appspot.com/o/assets%2Fawjicon2.png?alt=media&token=9ec086f5-cedc-410b-8b42-7d6a18433b91
+  transform: rotate(0deg);
+  background-blend-mode: multiply;
+  opacity: 0.3;
+  display: none;
+  
+}
+
+.fb {
+  right: 40px;
+  top:40px;
+  visibility: hidden;
+}
+
+.copy1 {
+  text-align: center;
+  right: 0px !important;
+  width: 318px;
+  position: absolute;
+  left: 50%;
+  margin-left: -159px;
+
+
+
+
+
+
+} 
+
+.logo {
+  
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px
+
+}
+
+.copy1 > .line1 {
+  font-family: JannaLT-Regular !important; 
+  color: #7a3dc7;
+  font-size: 25px;
+  text-align: center;
+  direction: rtl;
+  margin-bottom: 20px;
+}
+
+.copy1 > .line2 {
+  font-family: JannaLT-Regular !important; 
+  color: #7a3dc7;
+  font-size: 33px;
+  text-align: center;
+  direction: rtl;
+  font-weight: bold;
+  line-height: 50px;
+
+}
+
+.solo {
+  bottom:10px;
+  width: 140px;
+  position: absolute;
+  left: 50%;
+  margin-left: -70px
+
+}
+
+
+.awj {
+  
+  width: 125px;
+  position: absolute;
+  left: 50%;
+  margin-left: -62px
+
+}
+
+.copy2 {
+  
+  width: 286px;
+  position: absolute;
+  left: 50%;
+  margin-left: -143px;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin:0px;
+  padding:0px;
+  
+}
+
+}
+

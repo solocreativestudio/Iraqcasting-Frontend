@@ -1,0 +1,39 @@
+/*.testing {
+  width: 71.42857%; }
+
+.header {
+  font-family: Lalezar !important; }
+
+label, .item, input, th, td, .button {
+  font-family: Harmattan !important; }
+
+.container {
+  padding-top: 30px; }
+
+
+
+
+.contact-us {
+  font-family: Harmattan !important;
+  font-size: 12px;
+  color: #312c2c;
+  border-bottom: 2px solid #312c2c;
+  width: 160px;
+  margin-top: 100px; }
+
+.developer {
+  font-family: Harmattan !important;
+  font-size: 11px;
+  color: #878585; }
+
+.fullwidth {
+  width: 100%; }
+
+.content {
+  font-weight: normal !important;
+  font-family: Harmattan !important; }
+
+.content .header {
+  font-weight: normal !important;
+  font-family: Harmattan !important; }
+*/
